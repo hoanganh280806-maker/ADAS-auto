@@ -2,7 +2,7 @@
 #include <algorithm>
 #include <iostream>
 int test;
-
+//gfgd
 static bool try_open_gst(cv::VideoCapture& cap, const std::string& pipeline) {
     std::cout << "[CAMERA] Try pipeline:\n" << pipeline << "\n";
     if (!cap.open(pipeline, cv::CAP_GSTREAMER)) {
