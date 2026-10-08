@@ -2,7 +2,7 @@
 #include <algorithm>
 #include <iostream>
 int test;
-//ádasd
+
 static bool try_open_gst(cv::VideoCapture& cap, const std::string& pipeline) {
     std::cout << "[CAMERA] Try pipeline:\n" << pipeline << "\n";
     if (!cap.open(pipeline, cv::CAP_GSTREAMER)) {
@@ -12,7 +12,7 @@ static bool try_open_gst(cv::VideoCapture& cap, const std::string& pipeline) {
     std::cout << "[CAMERA] Opened OK.\n";
     return true;
 }
-//ádasda
+
 LaneDetector::LaneDetector(const std::string& videoPath, int width, int height)
     : width(width), height(height)
 {
